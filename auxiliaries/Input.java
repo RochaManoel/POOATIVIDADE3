@@ -96,29 +96,29 @@ public class Input {
     }
     public String newDateFirst(){
         System.out.println("Digite o Periodo Inicial do Projeto:\nDigite o Dia: [DD]");
-        int day = sc.nextInt();
+        int day = this.getOption();
         System.out.println("Digite o Mês: [MM]");
-        int month = sc.nextInt();
+        int month = this.getOption();
         System.out.println("Digite o Ano: [AAAA]");
-        int year = sc.nextInt();
+        int year = this.getOption();
         System.out.println("Digite a Hora: [HH]");
-        int hour = sc.nextInt();
+        int hour = this.getOption();
         System.out.println("Digite os Minutos: [mm]");
-        int minutes = sc.nextInt();
+        int minutes = this.getOption();
         String Date = String.valueOf(day)+"/"+String.valueOf(month)+"/"+String.valueOf(year)+" / "+String.valueOf(hour)+":"+String.valueOf(minutes);
         return Date;
     }
     public String newDateLast(){
         System.out.println("Digite o Periodo Final do Projeto:\nDigite o Dia: [DD]");
-        int day = sc.nextInt();
+        int day = this.getOption();
         System.out.println("Digite o Mês: [MM]");
-        int month = sc.nextInt();
+        int month = this.getOption();
         System.out.println("Digite o Ano: [AAAA]");
-        int year = sc.nextInt();
+        int year = this.getOption();
         System.out.println("Digite a Hora: [HH]");
-        int hour = sc.nextInt();
+        int hour = this.getOption();
         System.out.println("Digite os Minutos: [mm]");
-        int minutes = sc.nextInt();
+        int minutes = this.getOption();
         String Date = String.valueOf(day)+"/"+String.valueOf(month)+"/"+String.valueOf(year)+" / "+String.valueOf(hour)+":"+String.valueOf(minutes);
         return Date;
     }
