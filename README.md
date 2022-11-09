@@ -26,3 +26,9 @@ Foram aplicadas as seguintes funções:
 # Tratamento de Excessões
   Aplicados em Todas as Funcionalidades e revisadas.
   Utilização das mesmas em seu tratamento na Class Input do Pacote auxiliares.
+
+# Identificação de Code Smells
+  - Duplicação de Código na Class Input, nas funções de newDateFirst(), newDateLast(), newDateFirstActivity(), newDateLastActivity().
+  - Data Clumps na Class Menu, na chamada das funções internas da menuArea(User UserOnline, Date dataBase);
+  - Shotgun Surgery
+  
