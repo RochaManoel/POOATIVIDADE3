@@ -13,6 +13,13 @@ public class Bags {
         this.user = user;
         this.value = value;
         this.period = period;
+        this.payment = false;
+    }
+    public Bags(Integer value, String period){
+        this.user = new User;
+        this.value = value;
+        this.period = period;
+        this.payment = false;
     }
 
     // ----- Getters da Classe ----- //
