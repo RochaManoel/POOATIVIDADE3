@@ -16,7 +16,7 @@ public class Bags {
         this.payment = false;
     }
     public Bags(Integer value, String period){
-        this.user = new User;
+        this.user = new User();
         this.value = value;
         this.period = period;
         this.payment = false;
